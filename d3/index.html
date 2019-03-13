@@ -1,0 +1,40 @@
+<html>
+<head> Logistic Regression on Blood Transfusion
+</head>
+<body>
+ 
+ 		<br>
+        <br>
+        <br>
+        <br>
+        <label for="C-value">C-value:</label><br> 
+        <input type="text" name="C-value" id="C-value"> 
+        <br>
+        <br>
+        <br>
+        <br>
+        <label for="scaling">Type of Scaling</label> 
+        <select name="scaling" id="scaling"> 
+            <option value="Min-MaxScaling">Min-MaxScaling</option> 
+            <option value="StandardScaling">StandardScaling</option> 
+        </select> 
+        <br>
+        <br>
+        <br>
+        <br>
+        <input name="updateButton" 
+           type="button" 
+           value="Plot"
+           onclick="my()" />
+
+        
+         
+        <div id="demo"></div>
+
+<script src="https://d3js.org/d3.v5.min.js"></script>
+<script src="modified.js"></script>
+</body>
+</html>
+
+
+
